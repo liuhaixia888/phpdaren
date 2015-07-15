@@ -1,0 +1,11 @@
+.radius(...) {
+      -webkit-border-radius: @arguments; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+              border-radius: @arguments; /* Opera 10.5 IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+    /* useful if you don't want a bg color from leaking outside the border: */
+/*    -webkit-background-clip: padding-box;
+            background-clip: padding-box;*/
+}
+.bgs-desc(@position:left top ){
+    background:url('../images/sp_desc.png') no-repeat @position;
+}

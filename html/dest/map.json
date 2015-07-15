@@ -1,0 +1,67 @@
+{
+    "res": {
+        "bootstrap/css/bootstrap-theme.css": {
+            "uri": "/bootstrap/css/bootstrap-theme.css",
+            "type": "css"
+        },
+        "bootstrap/css/bootstrap-theme.min.css": {
+            "uri": "/bootstrap/css/bootstrap-theme.min.css",
+            "type": "css"
+        },
+        "bootstrap/css/bootstrap.css": {
+            "uri": "/bootstrap/css/bootstrap.css",
+            "type": "css"
+        },
+        "bootstrap/css/bootstrap.min.css": {
+            "uri": "/bootstrap/css/bootstrap.min.css",
+            "type": "css"
+        },
+        "bootstrap/js/bootstrap.js": {
+            "uri": "/bootstrap/js/bootstrap.js",
+            "type": "js"
+        },
+        "bootstrap/js/bootstrap.min.js": {
+            "uri": "/bootstrap/js/bootstrap.min.js",
+            "type": "js"
+        },
+        "bootstrap/js/npm.js": {
+            "uri": "/bootstrap/js/npm.js",
+            "type": "js",
+            "deps": [
+                "../../js/transition.js",
+                "../../js/alert.js",
+                "../../js/button.js",
+                "../../js/carousel.js",
+                "../../js/collapse.js",
+                "../../js/dropdown.js",
+                "../../js/modal.js",
+                "../../js/tooltip.js",
+                "../../js/popover.js",
+                "../../js/scrollspy.js",
+                "../../js/tab.js",
+                "../../js/affix.js"
+            ]
+        },
+        "css/base.less": {
+            "uri": "/css/base.css",
+            "type": "css"
+        },
+        "css/home.less": {
+            "uri": "/css/home.css",
+            "type": "css"
+        },
+        "css/reset.css": {
+            "uri": "/css/reset.css",
+            "type": "css"
+        },
+        "js/init.js": {
+            "uri": "/js/init.js",
+            "type": "js"
+        },
+        "js/jquery.min.js": {
+            "uri": "/js/jquery.min.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}
