@@ -12,8 +12,8 @@
     <div class="inner clearfix">
       <img src="images/logo.gif" alt="phpdaren" class="logo">
       <p class="info">
-        <span>问答</span>
-        <span>文章</span>
+        <a href="/">问答</a>
+        <a href="02_index.html">文章</a>
       </p>
       <div class="login">
         <input type="text" class="input-txt" placeholder="请输入查询内容">
@@ -37,144 +37,214 @@
       </div> 
     <div class="row">
       <div class="col-md-9">
-        <div class="mod-ask-question">
-          <ul class="mod-tab clearfix">
-          <li class="selected">最新的</li>
-          <li>热门的</li>
-          <li>未回答</li>
+        <div class="mod-ask-question" id="tabAsk">
+          <ul class="mod-tab clearfix" >
+          <li class="selected"><a href="#tab-ask1">最新的</a></li>
+          <li><a href="#tab-ask2">热门的</a></li>
+          <li><a href="#tab-ask3">未回答</a></li>
           </ul>
 
-          <ul class="list">
-            <li>
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/1.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
-                  <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+          <div id="tab-ask1" style="display:block">
+            <ul class="list">
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/1.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/2.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">小慕送福利】MongoDB 在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份
-  </strong>
-                  <p class="p-txt">我觉得把那个人换一下，本来开发就男的多，上个网站还看男的！！！太不爽了！！！</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/2.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">小慕送福利】MongoDB 在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份
+    </strong>
+                    <p class="p-txt">我觉得把那个人换一下，本来开发就男的多，上个网站还看男的！！！太不爽了！！！</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>   
-            <li>
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/3.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
-                  <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+                </a>
+              </li>   
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/3.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>            
-            <li>
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/1.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
-                  <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+                </a>
+              </li>            
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/1.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/2.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">小慕送福利】MongoDB 在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份
-  </strong>
-                  <p class="p-txt">我觉得把那个人换一下，本来开发就男的多，上个网站还看男的！！！太不爽了！！！</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/2.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">小慕送福利】MongoDB 在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份
+    </strong>
+                    <p class="p-txt">我觉得把那个人换一下，本来开发就男的多，上个网站还看男的！！！太不爽了！！！</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>   
-            <li>
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/3.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
-                  <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+                </a>
+              </li>   
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/3.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>
-            <li class="last">
-              <a href="javascript:;" class="lk">
-                <span class="u-img">
-                  <img src="images/img/2.jpg" alt="" class="img">
-                  <span class="nick">梦也萧湘</span>
-                </span>
-                <div class="detail">
-                  <strong class="tit">小慕送福利】MongoDB 在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份
-  </strong>
-                  <p class="p-txt">我觉得把那个人换一下，本来开发就男的多，上个网站还看男的！！！太不爽了！！！</p>
-                  <div class="info">
-                    <span class="time">17秒前</span>
-                    <span class="tag">Android</span>
-                    <span class="tag">php</span>
-                    <span class="tag">javascript</span>
+                </a>
+              </li>
+              <li class="last">
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/2.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">小慕送福利】MongoDB 在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份
+    </strong>
+                    <p class="p-txt">我觉得把那个人换一下，本来开发就男的多，上个网站还看男的！！！太不爽了！！！</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>                       
-          </ul>
+                </a>
+              </li>                       
+            </ul>
+          </div>
+          <div id="tab-ask2" style="display:none">
+            <ul class="list">
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/1.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="tab-ask3" style="display:none">
+            <ul class="list">
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/1.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="lk">
+                  <span class="u-img">
+                    <img src="images/img/1.jpg" alt="" class="img">
+                    <span class="nick">梦也萧湘</span>
+                  </span>
+                  <div class="detail">
+                    <strong class="tit">想写个蓝牙串口助手的APP,没思路</strong>
+                    <p class="p-txt">嗯～～，这个提问大家都在考虑</p>
+                    <div class="info">
+                      <span class="time">17秒前</span>
+                      <span class="tag">Android</span>
+                      <span class="tag">php</span>
+                      <span class="tag">javascript</span>
+                    </div>
+                  </div>
+                </a>
+              </li>              
+            </ul>
+          </div>
+
+          
+
+<!--           <ul id="tab-ask2" style="display:none">22222</ul>
+          <ul id="tab-ask3" style="display:none">33333</ul> -->
+
         </div>
 
       </div>
@@ -209,54 +279,59 @@
           </div>
         </div>
 
-        <div class="mod-ask-question2">
+        <div class="mod-ask-question2" id="tabAsk2">
           <ul class="mod-tab2 clearfix">
-          <li class="selected">精彩回答</li>
-          <li>热门博客</li>
-          <li>热门资源</li>
+          <li class="selected"><a href="#tab2-ask1">精彩回答</a></li>
+          <li><a href="#tab2-ask2">热门博客</a></li>
+          <li><a href="#tab2-ask3">热门资源</a></li>
           </ul>
-          <ul class="list">
-          <li>
-            <a href="javascript:;" class="lk">
-              <strong class="tit">
-                <span class="nick">jackdaosin</span>提问
-              </strong>
-              <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:;" class="lk">
-              <strong class="tit">
-                <span class="nick">jackdaosin</span>提问
-              </strong>
-              <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:;" class="lk">
-              <strong class="tit">
-                <span class="nick">jackdaosin</span>提问
-              </strong>
-              <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:;" class="lk">
-              <strong class="tit">
-                <span class="nick">jackdaosin</span>提问
-              </strong>
-              <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
-            </a>
-          </li>
-          <li class="last">
-            <a href="javascript:;" class="lk">
-              <strong class="tit">
-                <span class="nick">jackdaosin</span>提问
-              </strong>
-              <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
-            </a>
-          </li>                                        
-          </ul>
+          <div id="tab2-ask1" style="display:block">
+            <ul class="list">
+            <li>
+              <a href="javascript:;" class="lk">
+                <strong class="tit">
+                  <span class="nick">jackdaosin</span>提问
+                </strong>
+                <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" class="lk">
+                <strong class="tit">
+                  <span class="nick">jackdaosin</span>提问
+                </strong>
+                <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" class="lk">
+                <strong class="tit">
+                  <span class="nick">jackdaosin</span>提问
+                </strong>
+                <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" class="lk">
+                <strong class="tit">
+                  <span class="nick">jackdaosin</span>提问
+                </strong>
+                <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
+              </a>
+            </li>
+            <li class="last">
+              <a href="javascript:;" class="lk">
+                <strong class="tit">
+                  <span class="nick">jackdaosin</span>提问
+                </strong>
+                <p class="p-txt">在线讲座系列2—使用MMS在阿里云部署MongoDB及设置监控备份</p>
+              </a>
+            </li>                                        
+            </ul>
+          </div>
+          <div id="tab2-ask2" style="display:none">222</div>
+          <div id="tab2-ask3" style="display:none">333</div>
+          
         </div>
 
       </div>
@@ -301,11 +376,6 @@
     <p class="copyright">京CPI11008151|京公网安备11010802014853</p>
   </div>
 </div>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-  //alert(0);
-});
-</script>
+<script data-main="js/page/ask.js" src="js/lib/r.js"></script>
 </body>
 </html>
