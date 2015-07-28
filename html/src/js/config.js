@@ -4,6 +4,7 @@ require.config({
 		'$': 		'lib/jquery.min'
 		,'_': 		'lib/underscore'
 		,'tabslet': 'vendor/jquery.tabslet.min'
+		,'mTpl': 'vendor/mTpl'
 	},
 	shim: {
 		'$': {
